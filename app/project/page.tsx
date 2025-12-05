@@ -85,7 +85,7 @@ const Page = () => {
         <div className='border-r-1 border-blue-700'>
           <h1 className='text-blue-700 px-4 text-[15px] sm:text-[20px] py-4 font-bold'>SMART BANK</h1>
           <p className='text-blue-700 px-4 text-[13px] sm:text-[15px] py-1'>The Smart Bank App is a sleek and intuitive template designed to resemble a fully functional banking application. It offers a user-friendly interface with essential banking features, providing an ideal starting point for creating a custom mobile banking experience. This template includes functionalities such as account management, transaction tracking, and balance viewing, making it an excellent choice for those looking to build or prototype their own banking app.</p>
-          <p className='px-4 mt-2 mb-2'><Link href='https://ecowas-fish.vercel.app/' className='bg-blue-700 rounded-lg text-white px-2 text-[13px] sm:text-[15px] py-1'>Visit the Website</Link></p>
+          <p className='px-4 mt-2 mb-2'><Link href='https://d4dbank.vercel.app/' className='bg-blue-700 rounded-lg text-white px-2 text-[13px] sm:text-[15px] py-1'>Visit the Website</Link></p>
         </div>
       </div>
     </div>
