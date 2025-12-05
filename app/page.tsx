@@ -11,7 +11,7 @@ const Page: React.FC = () => {
     <div>
    
       <div className="grid grid-cols-1 sm:grid-cols-2 sm:pt-16 pt-5 px-10 pb-12 ">
-        <div className="mt-25">
+        <div className="sm:mt-25 mt-10">
           <p className="text-blue-700 text-[19px] sm:text-[30px] font-semibold sm:px-10 px-2 py-4">
             Frontend Developer
           </p>

@@ -30,11 +30,14 @@ const Project = () => {
                         <h1 className='text-blue-700 px-4 text-[13px] sm:text-[15px] py-1 '>{project.description}</h1>
                     </div>
                     <div className="px-4">
-                        <Link href={project.link}>
-                    <p className='bg-blue-700 text-white  text-[12px] sm:text-[15px]  font-bold sm:w-[35%] w-[21%] px-2 py-1 rounded-lg mb-4'>View Project</p>
-                    </Link>
+                        <Link href={project.link} className="inline-block">
+                            <p className=" bg-blue-700 hover:bg-blue-800 text-white font-bold text-xs sm:text-sm px-2 
+                            py-1 rounded-lg transition-colors duration-200">
+                            View Project
+                            </p>
+                        </Link>
+                        </div>
                     </div>
-                </div>
             ))}
         </div>
         

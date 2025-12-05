@@ -18,12 +18,12 @@ const page = () => {
             </div>
       
            <span className="absolute top-20 left-1/2 -translate-x-1/2 
-        text-white font-bold text-4xl sm:text-6xl">
+        text-white font-bold text-2xl sm:text-6xl">
         CONTACT US
       </span>
       {/* Contact */}
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 bg-gradient-to-r from-yellow-700 to-blue-700 pt-20 gap-4 pb-15">
+      <div className="grid grid-cols-1 sm:grid-cols-2 bg-blue-700 pt-20 gap-4 pb-15">
                   <div className="px-10 ">
                       <h1 className='text-white text-3xl sm:text-[50px] font-bold mb-10'>Get in Touch</h1>
                       <p className='text-white text-[15px] sm:text-[20px] font-bold mb-5'>We'd love to hear from you!</p>
@@ -45,8 +45,8 @@ const page = () => {
                           <Link href="https://x.com/MrKunmi0903003" target="_blank" rel="noopener noreferrer" aria-label="X"><FaX size={20} className='bg-white text-black p-1 rounded-full '/></Link>
                       </div>
                   </div>
-                  <div className="px-10">
-                      <h1 className='text-white text-3xl sm:text-[40px] font-bold mb-10'>Let’s Build Something Amazing Together</h1>
+                  <div className="px-10 mt-10">
+                      <h1 className='text-white text-3xl sm:text-[40px] font-bold mb-4'>Let’s Build Something Amazing Together</h1>
                       <p className='text-white text-[14px] sm:text-[30px] font-bold'>Ready to create your website? Let’s start the conversation!</p>
                   </div>
               </div>

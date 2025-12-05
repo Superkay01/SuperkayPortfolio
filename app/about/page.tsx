@@ -20,7 +20,7 @@ const page = () => {
             </span>
 
             {/* ABOUT ME */}
-            <div className='bg-blue-700 pt-20 sm:h-[800px] h-[1000px] '>
+            <div className='bg-blue-700 pt-20 sm:h-[800px] h-[1050px] '>
                     
                     <div className="grid grid-cols-1 sm:grid-cols-2 mt-4 sm:px-10 px-0">
                         <div className=" w-full h-[500px]">
@@ -28,7 +28,7 @@ const page = () => {
                         </div>
                         <div className="text-white text-[15px] sm:text-[20px]">
                             <h1 className="text-white text-center text-3xl px-10  sm:text-[50px] font-bold mt-5">About Me</h1>
-                            <p className="text-white text-[12px] sm:text-[15px] sm:px-10 px-4 mt-5">
+                            <p className="text-white text-xs sm:text-sm sm:px-10 px-4 mt-5">
                                I am a passionate and results-driven Frontend Web Developer with a strong focus on creating responsive, user-friendly web applications. I specialize in using modern web technologies like HTML5, CSS3, JavaScript, React.js, and Next.js to build dynamic, interactive websites that deliver an exceptional user experience.
 
 With a deep understanding of UI/UX principles, I ensure my designs are intuitive, aesthetically appealing, and mobile-first, providing seamless performance across all devices and browsers. My expertise in responsive design, cross-browser compatibility, and accessibility allows me to create websites that cater to diverse user needs while ensuring the highest standards of usability and performance.

@@ -16,7 +16,7 @@ const Page = () => {
       </div>
 
      <span className="absolute top-20 left-1/2 -translate-x-1/2 
-  text-white font-bold text-4xl sm:text-6xl">
+  text-white font-bold text-2xl sm:text-6xl">
   My PROJECT
 </span>
 
