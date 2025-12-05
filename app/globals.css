@@ -1,26 +1,132 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --white: #FFFFFF;
+  --green: #008100;
+  --dark-green: #007D00;
+  --olive-green: #007C00;
+  --medium-green: #008000;
+  --yellow: #ffdc24;
+  --wine: #7a0917;
+  --red: #ec0606;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* Correct usage of CSS variables */
+.bg-\[var\(--medium-green\)\] {
+  background-color: var(--medium-green);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.bg-\[var\(--red\)\] {
+  background-color: var(--red);
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.bg-\[var\(--yellow\)\] {
+  background-color: var(--yellow);
 }
+
+.bg-\[var\(--wine\)\] {
+  background-color: var(--wine);
+}
+
+.bg-\[var\(--dark-green\)\] {
+  background-color: var(--dark-green);
+}
+
+.bg-\[var\(--white\)\] {
+  background-color: var(--white);
+}
+
+.text-\[var\(--medium-green\)\] {
+  color: var(--medium-green);
+}
+
+.text-\[var\(--red\)\] {
+  color: var(--red);
+}
+
+.text-\[var\(--yellow\)\] {
+  color: var(--yellow);
+}
+
+.text-\[var\(--wine\)\] {
+  color: var(--wine);
+}
+
+.text-\[var\(--dark-green\)\] {
+  color: var(--dark-green);
+}
+
+.text-\[var\(--white\)\] {
+  color: var(--white);
+}
+
+.text-\[var\(--olive-green\)\] {
+  color: var(--olive-green);
+}
+
+.text-\[var\(--green\)\] {
+  color: var(--green);
+}
+
+.border-\[var\(--yellow\)\] {
+  border-color: var(--yellow);
+}
+
+.hover\:bg-\[var\(--medium-green\)\]\/90:hover {
+  background-color: rgba(var(--medium-green-rgb, 0, 128, 0), 0.9);
+}
+
+.hover\:bg-\[var\(--yellow\)\]:hover {
+  background-color: var(--yellow);
+}
+
+/* Consistent custom classes for dynamic usage */
+.bg-custom-green {
+  background-color: var(--green);
+}
+
+.text-custom-green {
+  color: var(--green);
+}
+
+.bg-custom-dark-green {
+  background-color: var(--dark-green);
+}
+
+.text-custom-dark-green {
+  color: var(--dark-green);
+}
+
+.bg-custom-olive-green {
+  background-color: var(--olive-green);
+}
+
+.text-custom-olive-green {
+  color: var(--olive-green);
+}
+
+/* Infinite typing + deleting animation */
+.animate-typing-infinite {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 4px solid #2563eb; 
+  animation: 
+    typing 3.5s steps(28) infinite,
+    blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  0%   { width: 0; }
+  40%  { width: 100%; }     /* finishes typing */
+  80%  { width: 100%; }     /* stays fully typed for a moment */
+  90%  { width: 0; }        /* starts deleting */
+  100% { width: 0; }        /* fully deleted */
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50%      { border-color: #2563eb; }
+}
+
+
