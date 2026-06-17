@@ -6,11 +6,11 @@ const page = () => {
     <div className='relative'>
       <div className="relative">
                     <Image
-                      src="/project.jpg"
+                      src="/tech.jpg"
                       alt="My Project Image Background"
                       width={500}
                       height={500}
-                      className="object-cover w-full h-[200px]"
+                      className="object-cover w-full h-[75vh]"
                     />
                   </div>
             

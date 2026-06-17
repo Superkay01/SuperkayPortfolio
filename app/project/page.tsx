@@ -1,17 +1,19 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import Contact from '@/components/Contact'
+import Footer from '@/components/Footer'
 
 const Page = () => {
   return (
     <div className="relative mb-20">
       <div className="relative">
         <Image
-          src="/project.jpg"
+          src="/tech.jpg"
           alt="My Project Image Background"
           width={500}
           height={500}
-          className="object-cover w-full h-[200px]"
+          className="object-cover w-full h-[75vh]"
         />
       </div>
 
@@ -88,6 +90,41 @@ const Page = () => {
           <p className='px-4 mt-2 mb-2'><Link href='https://d4dbank.vercel.app/' className='bg-blue-700 rounded-lg text-white px-2 text-[13px] sm:text-[15px] py-1'>Visit the Website</Link></p>
         </div>
       </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 sm:w-[80%] m-auto mt-10 border-1 border-blue-700 ">
+        <div>
+          <Image
+          src="/artismart.PNG"
+          alt="My Project Image Background"
+          width={500}
+          height={500}
+          className="object-cover w-full h-full"
+        />
+        </div>
+        <div className='border-r-1 border-blue-700'>
+  <h1 className='text-blue-700 px-4 text-[15px] sm:text-[20px] py-4 font-bold'>
+    ARTISMART PLATFORM
+  </h1>
+
+  <p className='text-blue-700 px-4 text-[13px] sm:text-[15px] py-1'>
+    ArtisMart is a digital marketplace designed to connect customers with verified artisans and skilled service providers. The platform enables users to discover trusted professionals, request services, track job progress in real time, and communicate directly with artisans. Customers can browse artisan profiles, view ratings and reviews, and make informed decisions before hiring.
+  </p>
+
+  <p className='text-blue-700 px-4 text-[13px] sm:text-[15px] py-1'>
+    The platform features secure authentication, artisan verification, real-time location tracking, service request management, customer reviews, and an admin dashboard for monitoring activities across the ecosystem. ArtisMart empowers artisans to showcase their skills while providing customers with a reliable and seamless service-booking experience.
+  </p>
+
+  <p className='px-4 mt-2 mb-2'>
+    <Link
+      href='https://artismarts.vercel.app/'
+      className='bg-blue-700 rounded-lg text-white px-2 text-[13px] sm:text-[15px] py-1'
+    >
+      Visit the Website
+    </Link>
+  </p>
+</div>
+      </div>
+      <Contact/>
+      <Footer/>
     </div>
   )
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import Contact from './Contact'
 
 const Project = () => {
 
@@ -9,9 +10,10 @@ const Project = () => {
         {id: '/Ecowas.png', title: 'ECOWAS FISHERY DASHBOARD', description: 'The ECOWAS Fisheries dashboard serves all ECOWAS countries, ensuring secure and isolated access to each countrys data. Only the Admin has access to all countries information. The platform stores fisheries data related to fish species, enabling users to track trends and insights. It also supports three languages for broader accessibility across the region.', link: 'href="/project'},
         {id: '/d4d.png', title: 'Data4Decision International', description: 'This website serves as an online presence for the organization, showcasing its work and sharing its mission with the world.', link: '/project'},
         {id: '/bank.png', title: 'SMART BANK', description: 'The Smart Bank App is a sleek and intuitive template designed to resemble a fully functional banking application. It offers a user-friendly interface with essential banking features, providing an ideal starting point for creating a custom mobile banking experience. This template includes functionalities such as account management, transaction tracking, and balance viewing, making it an excellent choice for those looking to build or prototype their own banking app.', link: '/project'},
+        {id: '/artismart.PNG', title: 'ARTISMART', description: 'ArtisMart is an innovative service marketplace platform developed to bridge the gap between customers and verified artisans. The platform enables users to discover skilled professionals, request services,  manage bookings, and leave reviews after completed jobs. Built with a focus on accessibility, security, and user experience, ArtisMart streamlines service delivery while empowering artisans to showcase their expertise and grow their businesses through a trusted digital ecosystem.', link: '/project'},
     ]
   return (
-    <div className='pt-20 pb-15'>
+    <div className='pt-20 pb-15 mb-10'>
         <div className="text-blue-700 text-center text-3xl px-10  sm:text-[50px] font-bold mb-10">Project</div>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-6xl mx-auto ">
             {project.map((project)=>(
@@ -40,7 +42,6 @@ const Project = () => {
                     </div>
             ))}
         </div>
-        
     </div>
   )
 }

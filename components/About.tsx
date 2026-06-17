@@ -11,9 +11,32 @@ const About = () => {
             </div>
             <div className="text-white text-[15px] sm:text-[20px]">
                 <h1 className="text-white text-center text-3xl px-10  sm:text-[50px] font-bold mt-5">About Me</h1>
-                <p className="text-white text-[15px] sm:text-[20px] sm:px-10 px-4 mt-5">
-                   I’m a passionate Frontend Web Developer skilled in HTML5, CSS3, JavaScript (ES6+), React.js, and Next.js. I specialize in building responsive, user-friendly web applications with a focus on performance, accessibility, and cross-browser compatibility. With a keen eye for UI/UX design, I create intuitive and dynamic websites that deliver seamless experiences across all devices. I’m also familiar with Firestore for backend integration and Cloudinary for efficient image and video management. Always eager to learn and grow, I strive to stay ahead of industry trends and build high-quality solutions that meet client needs.
+                <div className="text-white text-[12px] sm:text-[15px] sm:px-10 px-4 mt-5">
+                    <p>
+                   I am a dedicated Web Developer with expertise in 
+                   HTML5, CSS3, JavaScript, React.js, and Next.js. 
+                   I specialize in building modern, responsive, 
+                   and user-friendly web applications that deliver excellent performance,
+                   accessibility, and cross-browser compatibility across all devices.
+                   </p>
+                   <p>
+                   With a strong understanding of UI/UX design principles,
+                   I create engaging and intuitive digital experiences that 
+                   enhance user interaction and satisfaction. 
+                   My technical expertise also includes backend integration 
+                   and database management using Firestore
+                   and Supabase Database, as well as media storage and optimization
+                   through Cloudinary for efficient image and video management.
+                    </p>
+                    <p>
+                   Passionate about continuous learning and innovation, 
+                   I stay current with emerging technologies and industry best practices. 
+                   I am committed to developing scalable, reliable, 
+                   and high-quality web solutions that meet both user 
+                   expectations and business objectives while delivering 
+                   measurable value to clients and organizations.
                 </p>
+                </div>
             </div>
         </div>
     </div>
