@@ -5,7 +5,14 @@ import Link from 'next/link'
 
 const Contact = () => {
   return (
-    <div>
+    <div className='relative overflow-hidden'>
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30"
+          style={{
+            backgroundImage: "url('/contact2.jpg')",   // ← Change this image if needed
+            animation: "kenBurns 35s infinite alternate ease-in-out",
+          }}
+        />
         <div className="grid grid-cols-1 sm:grid-cols-2 bg-blue-700 pt-20 gap-4 pb-15 sm:gap-0 ">
             <div className="px-10 ">
                 <h1 className='text-white text-3xl sm:text-[50px] font-bold mb-10'>Get in Touch</h1>

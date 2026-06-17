@@ -61,13 +61,13 @@ const Services = () => {
             Our Services
           </h1>
           <p className="text-lg md:text-2xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
-            From stunning websites to creative content — we provide complete digital solutions for your business growth.
+            From stunning websites to creative content - we provide complete digital solutions for your business growth.
           </p>
         </div>
 
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 text-white/70 animate-bounce">
+        {/* <div className="absolute bottom-10 left-1/2 -translate-x-1/2 text-white/70 animate-bounce">
           ↓ Scroll to explore
-        </div>
+        </div> */}
       </div>
 
       {/* ==================== MAIN CONTENT AREA WITH ANIMATED IMAGE BACKGROUND ==================== */}
@@ -135,12 +135,12 @@ const Services = () => {
         </div>
 
         {/* CTA Section */}
-        <div className="relative bg-blue-400/95 backdrop-blur-md text-white py-16 md:py-20 text-center">
+        <div className="relative bg-[var(--blue)] backdrop-blur-md text-white py-16 md:py-20 text-center">
           <div className="max-w-4xl mx-auto px-6">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-blue-700">
               Ready to Grow Your Business?
             </h2>
-            <p className="text-blue-100 text-lg mb-8">
+            <p className="text-white text-lg mb-8">
               Let's turn your ideas into reality with professional digital solutions.
             </p>
             <button 

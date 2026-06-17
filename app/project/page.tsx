@@ -6,21 +6,28 @@ import Footer from '@/components/Footer'
 
 const Page = () => {
   return (
-    <div className="relative mb-20">
-      <div className="relative">
-        <Image
-          src="/tech.jpg"
-          alt="My Project Image Background"
-          width={500}
-          height={500}
-          className="object-cover w-full h-[75vh]"
-        />
-      </div>
-
-     <span className="absolute top-20 left-1/2 -translate-x-1/2 
-  text-white font-bold text-2xl sm:text-6xl">
-  My PROJECT
-</span>
+    <div className="relative ">
+      <div className="relative h-[75vh] flex items-center justify-center overflow-hidden">
+              <Image
+                src="/tech.jpg"
+                alt="Contact Background"
+                fill
+                className="object-cover"
+                priority
+              />
+              {/* Dark Overlay */}
+              <div className="absolute inset-0 bg-black/60" />
+      
+              {/* Overlay Text */}
+              <div className="relative z-10 text-center px-6">
+                <h1 className="text-5xl md:text-7xl font-bold text-white tracking-tight mb-4">
+                  My Project
+                </h1>
+                {/* <p className="text-xl md:text-2xl text-blue-100 max-w-2xl mx-auto">
+                  Let's bring your ideas to life
+                </p> */}
+              </div>
+            </div>
 
 
       <div className="grid grid-cols-1 sm:grid-cols-2 sm:w-[80%] m-auto mt-10 border-1 border-blue-700 ">
@@ -90,7 +97,7 @@ const Page = () => {
           <p className='px-4 mt-2 mb-2'><Link href='https://d4dbank.vercel.app/' className='bg-blue-700 rounded-lg text-white px-2 text-[13px] sm:text-[15px] py-1'>Visit the Website</Link></p>
         </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 sm:w-[80%] m-auto mt-10 border-1 border-blue-700 ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 sm:w-[80%] m-auto mt-20 mb-20 border-1 border-blue-700 ">
         <div>
           <Image
           src="/artismart.PNG"
@@ -124,7 +131,7 @@ const Page = () => {
 </div>
       </div>
       <Contact/>
-      <Footer/>
+      
     </div>
   )
 }
