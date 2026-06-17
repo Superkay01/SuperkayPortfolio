@@ -44,12 +44,12 @@ const Footer: React.FC = () => {
             >
               Contact
             </Link>
-            <Link 
+            {/* <Link 
               href="/privacy" 
               className="hover:text-blue-200 transition-colors duration-200 hover:-translate-y-0.5"
             >
               Privacy
-            </Link>
+            </Link> */}
           </div>
 
           {/* Right: Social Icons */}
