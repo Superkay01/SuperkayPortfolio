@@ -21,7 +21,7 @@ const Navbar = () => {
         <Image src="/logo.png" width={70} height={70} alt="Superkay" priority />
 
         <ul className="flex gap-8 text-lg">
-          {["home", "about", "project", "services", "contact"].map((item) => (
+          {["home", "about", "project", "contact"].map((item) => (
             <li key={item}>
               <Link
                 href={item === "home" ? "/" : `/${item}`}

@@ -26,12 +26,12 @@ const Footer: React.FC = () => {
             >
               About
             </Link>
-            <Link 
+            {/* <Link 
               href="/services" 
               className="hover:text-blue-200 transition-colors duration-200 hover:-translate-y-0.5"
             >
               Services
-            </Link>
+            </Link> */}
             <Link 
               href="/project" 
               className="hover:text-blue-200 transition-colors duration-200 hover:-translate-y-0.5"

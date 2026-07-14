@@ -14,7 +14,7 @@ const About = () => {
                 <div className="text-white text-[12px] sm:text-[15px] sm:px-10 px-4 mt-5">
                     <p>
                    I am a dedicated Web Developer with expertise in 
-                   HTML5, CSS3, JavaScript, React.js, and Next.js. 
+                   HTML5, CSS, JavaScript, React.js, and Next.js. 
                    I specialize in building modern, responsive, 
                    and user-friendly web applications that deliver excellent performance,
                    accessibility, and cross-browser compatibility across all devices.
